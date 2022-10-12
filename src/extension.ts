@@ -67,7 +67,7 @@ const updateText = (input: string, restart?: boolean) => {
     /* eslint-enable @typescript-eslint/naming-convention */
   };
 
-  const regex = /^(#{1,6}) [0-9]+\.(.*)/;
+  const regex = /^(#{1,6}) [0-9]+\. (.*)/;
 
   lines.forEach((line, lineNumber) => {
     // if the line start with one to six # followed by numbers and a dot, this is an index that need to be update
