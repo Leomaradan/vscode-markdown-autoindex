@@ -47,6 +47,7 @@
   "license": "MIT",
   "main": "./dist/extension.js",
   "name": "markdown-auto-index",
+  "publisher": "Leomaradan",
   "repository": {
     "type": "git",
     "url": "https://github.com/Leomaradan/vscode-markdown-autoindex.git"
@@ -59,5 +60,5 @@
     "vscode:prepublish": "yarn run package",
     "watch": "webpack --watch"
   },
-  "version": "11.0.0"
+  "version": "1.0.0"
 }
